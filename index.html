@@ -135,8 +135,12 @@
             background-color: #1b1b2f;
         }
 
-        #contact {
+        #certifications {
             background-color: #6d6875;
+        }
+
+        #contact {
+            background-color: #4a4e69;
         }
 
         /* Alternate Image and Text Position */
@@ -320,17 +324,20 @@
 
         .skill h3 {
             margin-bottom: 5px;
+            font-size: 1.5em;
+            color: #f25f5c;
         }
 
         .skill-bar {
             background-color: #ccc;
             border-radius: 5px;
             overflow: hidden;
+            height: 10px;
         }
 
         .skill-progress {
             background-color: #f25f5c;
-            height: 10px;
+            height: 100%;
             border-radius: 5px;
             transition: width 1s ease;
         }
@@ -370,6 +377,22 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Certifications & Achievements Styling */
+        .certification-item {
+            margin-bottom: 20px;
+        }
+
+        .certification-item h3 {
+            font-size: 1.5em;
+            color: #f25f5c;
+            margin-bottom: 10px;
+        }
+
+        .certification-item p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
     </style>
 </head>
 
@@ -386,7 +409,8 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#achievements">Achievements</a>
+            <!-- <a href="#achievements">Achievements</a> -->
+            <a href="#certifications">Certifications</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -396,8 +420,10 @@
         <div class="content">
             <div class="text">
                 <h2>About Me</h2>
-                <p>Hi, I'm Amit, a passionate programmer and technology enthusiast. I love working with C++, Java, and exploring new technologies. Welcome to my portfolio website!</p>
-                <a href="resume.pdf" class="download-resume" download>Download Resume</a>
+                <p>Hi, I'm Amit Niraj Gond, a B.Tech 3rd-year student specializing in Computer Science. I am passionate about Data Analytics and Full Stack Web Development. My expertise includes AI, machine learning, data processing, and software development. I am eager to contribute to projects and business growth through my skills and knowledge.</p>
+                <p>Email: gond35889@gmail.com | Phone: +91 9175157734</p>
+               
+                <!-- <a href="resume.pdf" class="download-resume" download>Download Resume</a> -->
             </div>
             <img src="a3.png" alt="About Me Image">
         </div>
@@ -409,37 +435,48 @@
             <div class="text">
                 <h2>Skills</h2>
                 <div class="skill">
-                    <h3>HTML/CSS</h3>
+                    <h3>Programming Languages</h3>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 90%;"></div>
                     </div>
+                    <p>Python, C++, C, Java (basic)</p>
                 </div>
                 <div class="skill">
-                    <h3>JavaScript</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 80%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>C++</h3>
+                    <h3>Data Analytics Tools</h3>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 85%;"></div>
                     </div>
+                    <p>Pandas, NumPy, Excel</p>
                 </div>
                 <div class="skill">
-                    <h3>Python</h3>
+                    <h3>Machine Learning</h3>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="width: 75%;"></div>
+                        <div class="skill-progress" style="width: 80%;"></div>
                     </div>
+                    <p>Scikit-Learn, TensorFlow</p>
                 </div>
                 <div class="skill">
-                    <h3>React</h3>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                    <p>MERN Stack (MongoDB, Express.js, React.js, Node.js), HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill">
+                    <h3>Mobile Development</h3>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 70%;"></div>
                     </div>
+                    <p>Android (Java, Kotlin)</p>
+                </div>
+                <div class="skill">
+                    <h3>Frameworks</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                    <p>Flask, Django</p>
                 </div>
             </div>
-            <!-- <img src="amit1 (1).jpeg" alt="Skills Image"> -->
         </div>
     </section>
 
@@ -449,12 +486,21 @@
             <div class="text">
                 <h2>Projects</h2>
                 <ul>
-                    <li>BMI Calculator</li>
-                    <li>Guess the Number Game</li>
-                    <li>Random Password Generator</li>
-                    <li>Stone Paper Scissors</li>
-                    <li>Tic Tac Toe</li>
-                    <li>Travel Management System</li>
+                    <li>
+                        <strong>Enhance Learning Platform</strong>: Developed an educational website offering features like question generation, books, mock tests, and articles in multiple languages. Implemented Python for AI-based question generation and React for an interactive UI. Integrated MongoDB and Express for a robust backend.
+                        <br>
+                        <a href="https://github.com/amitgond1/enhance-learning-platform" target="_blank">View Project</a>
+                    </li>
+                    <li>
+                        <strong>Weather App</strong>: Created a weather application that fetches real-time data using JavaScript and APIs. Displayed temperature, humidity, and weather conditions dynamically.
+                        <br>
+                        <a href="https://github.com/amitgond1/weather-app" target="_blank">View Project</a>
+                    </li>
+                    <li>
+                        <strong>Student Attendance Management System</strong>: Developed a web-based system to manage student attendance efficiently. Implemented real-time tracking and report generation. Used MERN stack to create a scalable and interactive application.
+                        <br>
+                        <a href="https://github.com/amitgond1/attendance-management-system" target="_blank">View Project</a>
+                    </li>
                 </ul>
             </div>
             <img src="a2.png" alt="Projects Image">
@@ -462,15 +508,36 @@
     </section>
 
     <!-- Achievements Section -->
-    <section id="achievements" class="animated-section">
+    <!-- <section id="achievements" class="animated-section">
         <div class="content">
             <div class="text">
                 <h2>Achievements</h2>
                 <ul>
-                    <li><strong>Intern : jalkfkjhadfjlkajlk fakfalkjdflajl l</strong> .</li>
-                    <li><strong>Microsoftkfjlkajlkfj ajl jkljl a </strong> A.</li>
-                    <li><strong>ISRO :</strong> .</li>
+                    <li><strong>Intern</strong>: Worked on various projects during my internship, gaining hands-on experience in data analytics and web development.</li>
+                    <li><strong>Microsoft</strong>: Participated in Microsoft's coding challenges and hackathons, showcasing my problem-solving skills.</li>
+                    <li><strong>ISRO</strong>: Contributed to a project related to satellite data analysis during a collaboration with ISRO.</li>
                 </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Certifications & Achievements Section -->
+    <section id="certifications" class="animated-section">
+        <div class="content reverse">
+            <div class="text">
+                <h2>Certifications & Achievements</h2>
+                <div class="certification-item">
+                    <h3>🏆 Internship in Data Structures and Algorithms (DSA) – Bootcoding (40 days)</h3>
+                    <p>Completed an intensive 40-day internship focused on mastering Data Structures and Algorithms.</p>
+                </div>
+                <div class="certification-item">
+                    <h3>🏆 AI/ML GeoData Analysis Internship – ISRO (1 Week)</h3>
+                    <p>Worked on AI/ML-based GeoData analysis during a 1-week internship at ISRO.</p>
+                </div>
+                <div class="certification-item">
+                    <h3>🏆 Completed multiple AI and Machine Learning projects</h3>
+                    <p>Successfully built and deployed AI/ML models for classification and regression tasks.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -498,7 +565,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Amit. All rights reserved. | <a href="#header">Back to Top</a></p>
+        <p>&copy; 2023 Amit Niraj Gond. All rights reserved. | <a href="#header">Back to Top</a></p>
     </footer>
 
     <!-- Dark/Light Mode Toggle -->
